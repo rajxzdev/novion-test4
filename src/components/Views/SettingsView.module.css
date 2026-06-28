@@ -1,0 +1,18 @@
+.view { padding: calc(20px + var(--safe-top)) 16px 24px; display:flex; flex-direction:column; gap:18px; }
+.section { padding:18px; border-radius:var(--radius-xl); background:rgba(255,255,255,0.05); border:0.5px solid rgba(255,255,255,0.08); }
+.sectionTitle { font-size:13px; color:var(--text-tertiary); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:14px; }
+.profile { display:flex; align-items:center; gap:14px; }
+.avatar { width:72px; height:72px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; background:rgba(var(--primary-rgb),0.18); color:var(--primary); }
+.username { font-size:22px; font-weight:700; }
+.input { width:100%; margin-top:8px; padding:12px 14px; border-radius:14px; background:rgba(255,255,255,0.06); border:0.5px solid rgba(255,255,255,0.08); color:white; }
+.themeGrid { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:12px; }
+.themeCard { padding:12px 8px; border-radius:18px; background:rgba(255,255,255,0.05); text-align:center; color:var(--text-secondary); }
+.themeActive { outline:1px solid rgba(var(--primary-rgb),0.5); color:white; }
+.swatch { width:48px; height:48px; border-radius:50%; margin:0 auto 10px; }
+.actionList { display:flex; flex-direction:column; gap:10px; }
+.actionBtn { width:100%; text-align:left; padding:14px 16px; border-radius:16px; background:rgba(255,255,255,0.05); color:white; }
+.apiList { display:flex; flex-direction:column; gap:8px; }
+.apiRow { display:flex; justify-content:space-between; gap:12px; font-size:14px; }
+.statusActive { color:#34d399; }
+.statusExhausted { color:#f87171; }
+.about { color:var(--text-secondary); line-height:1.6; }
