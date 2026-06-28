@@ -1,0 +1,8 @@
+.view { padding: calc(20px + var(--safe-top)) 16px 24px; display:flex; flex-direction:column; gap:16px; }
+.header { display:flex; justify-content:space-between; align-items:center; }
+.segment { display:flex; gap:8px; padding:4px; border-radius:999px; background:rgba(255,255,255,0.06); width:max-content; }
+.segmentBtn { padding:10px 14px; border-radius:999px; background:transparent; color:var(--text-secondary); }
+.active { background:rgba(var(--primary-rgb),0.16); color:var(--primary); }
+.list { display:flex; flex-direction:column; gap:12px; }
+.empty { padding:28px 20px; border-radius:20px; background:rgba(255,255,255,0.05); text-align:center; color:var(--text-secondary); }
+.clearBtn { padding:10px 14px; border-radius:999px; background:rgba(220,38,38,0.15); color:#fecaca; }
