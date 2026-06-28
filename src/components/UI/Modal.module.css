@@ -1,0 +1,44 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(8,8,15,0.68);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.24s ease;
+}
+
+.center,
+.sheet {
+  width: min(92vw, 440px);
+  background: rgba(20,20,32,0.92);
+  border: 0.5px solid rgba(255,255,255,0.1);
+  box-shadow: var(--shadow-lg);
+  color: var(--text-primary);
+}
+
+.center {
+  border-radius: var(--radius-xl);
+  padding: 20px;
+  animation: fadeIn 0.24s ease;
+}
+
+.sheet {
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  align-self: flex-end;
+  width: 100%;
+  max-width: 520px;
+  padding: 14px 16px 20px;
+  animation: slideInUp 0.28s ease;
+}
+
+.handle {
+  width: 38px;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.22);
+  margin: 0 auto 14px;
+}
