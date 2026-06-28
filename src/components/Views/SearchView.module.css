@@ -1,0 +1,7 @@
+.view { padding: calc(20px + var(--safe-top)) 16px 24px; display:flex; flex-direction:column; gap:16px; }
+.searchWrap { display:flex; align-items:center; gap:12px; padding:16px; border-radius:var(--radius-xl); background:rgba(255,255,255,0.06); border:0.5px solid rgba(255,255,255,0.08); }
+.input { flex:1; background:transparent; border:none; outline:none; color:white; font-size:16px; }
+.chips, .categories, .results { display:flex; gap:10px; overflow-x:auto; }
+.results { flex-direction:column; overflow:visible; }
+.chip, .category { padding:10px 14px; border-radius:var(--radius-full); background:rgba(255,255,255,0.06); color:var(--text-secondary); white-space:nowrap; }
+.chip button { margin-left:8px; background:none; color:inherit; }
