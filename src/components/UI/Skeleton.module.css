@@ -1,0 +1,23 @@
+.song,
+.playlist {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: rgba(255,255,255,0.04);
+}
+
+.thumb,
+.square,
+.line {
+  background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.14), rgba(255,255,255,0.06));
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+}
+
+.thumb { width: 56px; height: 56px; border-radius: 50%; }
+.square { width: 100%; aspect-ratio: 1; border-radius: var(--radius-md); }
+.content { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+.line { height: 12px; border-radius: 999px; }
+.lineShort { width: 50%; }
+.lineLong { width: 80%; }
